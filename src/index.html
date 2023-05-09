@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <title>exercicio mod 22</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="hero">
+            <div class="container">
+                <img class="hero__logo" src="./images/logo.gif" alt="Imagem de um presente">
+                <p class="hero__text">
+                    Venha comemorar meu aniversário, ele começa daqui a <span id="count"></span>
+                </p>
+                <div class="infos-bar">
+                    <ul class="infos-bar__list">
+                        <li class="infos-bar__list__item">
+                            <strong>Local</strong>
+                            Rua Marina, 190 - Nossa senhora das Graças
+                        </li>
+                        <li class="infos-bar__list__item">
+                            <strong>Data</strong>
+                            07/08/2023 às 18h
+                        </li>
+                        <li class="infos-bar__list__item">
+                            <strong>Presente</strong>
+                            Traga presente!!! <span>(sem pressão)</span>
+                        </li>
+                    </ul>
+                    <li>
+                        <a href="#" class="button">Confirme sua presença &#128512</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--location">
+        <div class="container" data-aos="fade-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre o local</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                    rerum, itaque amet aliquam officiis sunt error soluta temporibus, voluptatibus neque similique
+                    facere cumque eaque vel fugiat aliquid vitae. Rerum, facilis.</p>
+            </div>
+            <img class="event__image" src="./images/event1.gif" alt="imagem de um gatinho saindo de um bolo">
+        </div>
+    </section>
+
+    <section class="event event--gif event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Presente</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                    rerum, itaque amet aliquam officiis sunt error soluta temporibus, voluptatibus neque similique
+                    facere cumque eaque vel fugiat aliquid vitae. Rerum, facilis.</p>
+            </div>
+            <img class="event__image" src="./images/cake.gif" alt="imagem de um gatinho saindo de um bolo">
+        </div>
+    </section>
+
+    <section class="event event--dresscode">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Dresscode</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                    rerum, itaque amet aliquam officiis sunt error soluta temporibus, voluptatibus neque similique
+                    facere cumque eaque vel fugiat aliquid vitae. Rerum, facilis.</p>
+            </div>
+            <img class="event__image" src="./images/clothes.gif" alt="imagem de um gatinho saindo de um bolo">
+        </div>
+    </section>
+
+    <section class="event event--menu event--image-left">
+        <div class="container" data-aos="fade-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Cardápio: Buffet Marion</h2>
+                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                    rerum, itaque amet aliquam officiis sunt error soluta temporibus, voluptatibus neque similique
+                    facere cumque eaque vel fugiat aliquid vitae. Rerum, facilis.</p>
+            </div>
+            <img class="event__image" src="./images/food.gif" alt="imagem de um gatinho saindo de um bolo">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
